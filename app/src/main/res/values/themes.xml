@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Compteur" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/vert_3</item>
+        <item name="colorPrimaryVariant">@color/gris</item>
+        <item name="colorOnPrimary">@color/vert_5</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/rouge_3</item>
+        <item name="colorSecondaryVariant">@color/rouge_5</item>
+        <item name="colorOnSecondary">@color/rouge_7</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>
